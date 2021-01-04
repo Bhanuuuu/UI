@@ -1,0 +1,49 @@
+HTML5 TAGS
+
+
+  Tag  	    Description	   Example
+1.<!--...-->	Specifies a comment	<!-- this is comment tag-->
+2.<!DOCTYPE>	Specifies the document type	<!DOCTYPE>
+3.<a>	Specifies anchor	<a href=”#”></a>
+4.<abbr>	Specifies abbrivation	<abbr title=”AB”>Akkapally Bhanu</abbr>
+5.<area>	Specifies an area in image	<img …….>
+<map>
+<area shape=”circle” coords=”32,32,33,42,50” href=”#”>
+</map>
+6.<article>	Specifies an independent piece of document	<article></article>
+7.<aside>	Specifies piece of content that only slightly related to rest of page	<aside></aside>
+8.<audio>	Specifies Audio file	<audio></audio>
+9.<video>	Specifies video file	<video></video>
+10.<canvas>	Specifies dynamic bitmap graphics on fly like graphs,game	<canvas id=”ma”width=”100px”height=”100px”></canvas>
+11.<command>	Specifies a command that a user can invoke	<command type=”command/checkbox/radio”>……</command>
+12.<datalist>	Together with the new list attribute for the input can be used to make combo box 	<lable for=”browser” >
+<input list=”browser”  name=”brwoser” id=”browser”>
+<datalist  name=”brwoser” id=”browser”>
+<option value=”abc”>
+<option value=”bnand”>
+<option value=”mnAN”>
+<option value=”lkjasl”>
+<option value=”kaHJ”>
+</datalist>
+13.<details>	Specifies additional information or controls which the user can obtain on demand	<details></details>
+14.<embed>	Specifies external interactive content or plugin	<embed type=”img/mp4/html/txt” src=”.img/.mp4/.html/.txt” ></embed>
+15.<figure>	Specifies piece of self contained flow content,typically referenced as a single unit from main flow of content	<figure></figure>
+16.<footer>	Specifies footer for section contains info about author,copyright etc	<footer></footer>
+17.<header>	Specifies group of introductions or navigation aid 	<header></header>
+18.<hgroup>	Specifies header of a section	<hgroup>
+<h1></h1>
+</hgroup>
+19.<keygen>	Specifies control for key pair generation	  <keygen name=”secure”>    
+
+20.<mark>	Specifies a run of text in one document	<mark>abc</mark>
+21.<section>	Represents a generic document or application section	<section></section>
+22.<nav>	Specifies section of document intended for navigation	<nav></nav>
+23.<meter>	Specifies measurement like disk usage	<meter value=”6” min=”0” max=”10”></meter>
+24.<output>	Specifies form of output I.e calculation done from scripting 	<output name=”a” for=”m”></output>
+25.<progress>	Specifies completion of task such as downloading the files 	<progress id=”a” value=”33”max=”100”></progress>
+27.<ruby>	To gather with <rt> and <rp> allow for marking up with ruby annotations	<ruby>
+ ? <rt> ??` </rt>
+</ruby>
+
+28.<time>	Specifies date and time	<time datetime=”20.00”></time>
+29.<wbr>	Specifies line break opportunity	<p>abc<wbr>def</p>

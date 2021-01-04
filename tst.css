@@ -1,0 +1,267 @@
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+.bg{
+    background-image: url("un2g.jpg");
+
+
+
+
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+.t1{
+text-align: center;
+
+}
+.m2{
+  float:left;
+display:block;
+overflow:hidden;
+height:650px;
+width:80%
+
+
+}
+.p11{
+display: flex;
+
+}
+.d1{
+height: 30px;
+width: 30px;
+}
+
+.m1{
+  background-color: teal;
+}
+.p1 {
+    font-family: "Sofia";
+    font-size: 22px;
+    color: #DAF7A6;
+  }
+  .p2{
+    font-family: "Sofia";
+font-size: 50px;
+color: aqua;
+text-align: center;
+  }
+  .s1{
+height: 150px;
+width: 150px;
+
+  }
+  .s2{
+height: 50px;
+width: 50px;
+display: ;
+
+  }
+  .m2{
+    float:left;
+	display:block;
+	overflow:hidden;
+	height:650px;
+	width:80%
+	
+	
+}
+
+  body {
+   height: 1000px;
+
+  }
+  #map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
+
+  .book{
+align-content: center;
+
+  }
+  .w1{
+  
+  
+  
+    background-color: white;
+
+
+
+height: 150px;
+  
+
+    margin-top: 20px;
+
+width: 100%; 
+  
+  }
+  .w2{
+text-align: center;  
+}
+
+
+
+  .h1{
+background-color: black;
+text-decoration-color: rgb(5, 10, 14);
+color: white;
+text-align: center;
+
+  }
+  .f1{
+
+    background-image: url("ts2.jpg");
+
+
+
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+width: 100%;;      
+}
+  .a2{
+margin-top: 20px;
+
+  }
+  .a1{
+padding-top: 2px;
+
+  }
+  body {
+    background-image: url("job.jpeg");
+    background-color:aliceblue;
+   
+  
+  }
+    h3 {
+    font-family: Calibri;
+    font-size: 25pt;
+    font-style: normal;
+    font-weight: bold;
+    color: SlateBlue;
+    text-align: center;
+  background-color:rgb(127, 223, 18);
+    text-decoration: underline;
+  }
+  .bg-img {
+   
+    background-image: url("s1.jpg");
+  
+    min-height: 380px;
+  
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  
+  table {
+    font-family: Calibri;
+    color: black;
+    font-size: 11pt;
+    font-style: normal;
+    font-weight: bold;
+    text-align:left;
+    background-color: #DAF7A6 ;
+    border-collapse: collapse;
+    
+  }
+  table.inner {
+    border: 0px;
+  }
+  #btn{
+    font-size: 25px;  
+    text-align: center;  
+  }
+  .con{
+    text-align: center;    
+  width: 100px;  
+  height: 50px;  
+  padding-top: 100px;  
+  
+  }
+   
+
+  

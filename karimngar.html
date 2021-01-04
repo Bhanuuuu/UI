@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>TStour</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="tst.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script
+      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly">
+      
+    </script>
+
+<script>
+  // Initialize and add the map
+  function initMap() {
+    // The location of Uluru
+    const uluru = { lat: -25.344, lng: 131.036 };
+    // The map, centered at Uluru
+    const map = new google.maps.Map(document.getElementById("map"), {
+      zoom: 4,
+      center: uluru,
+    });
+    // The marker, positioned at Uluru
+    const marker = new google.maps.Marker({
+      position: uluru,
+      map: map,
+    });
+  }
+</script>
+</head>
+<body>
+    <header><h2 class="h1">Karimnagar</h2></header>
+    <div class="card-deck">
+        
+        <div class="card">
+          <img class="card-img-top" src="lmd.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">LMD </h5>
+            <p class="card-text">At a distance of 4.5 km from Karimnagar Bus Stand, 65 km from Siddipet Bus Station and 163 km from Hyderabad, Lower Manair Dam is situated at Alugunur village near Karimnagar town.
+
+                The Lower Manair Dam (LMD) is built across the Manair River, a tributary of Godavari River. The construction of the dam was started in 1974 and was finished in 1985. The gross storage capacity of the reservoir is 24 TMC. The project serves as a balancing reservoir for Kakatiya Canal and regulates flow below Lower Manair Dam for an ayacut of 5,65,452 acres. It is also serves as drinking water source to Karimnagar and Warangal towns.
+                
+                The Lower Manair Dam is an important tourist attraction in Karimnagar. The dam has 20 floodgates. The gushing waters from the flood gates during monsoon season is the breathtaking sight for tourists. People from the neighboring areas flock to watch this amazing scene. The serene waters of the Lower Manair Dam and its surrounding areas provide a beautiful view.
+                
+                </p>
+          </div>
+        </div>
+    
+        
+
+        <div class="card">
+          <img class="card-img-top" src="vemulawada.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Vemulawada Temple</h5>
+            <p class="card-text">
+                Vemulawada is famous for the temple of Rajarajeshwara Swamy, an incarnation of Lord Shiva. It was built by one of the governors of Kalyani Chalukyas by name Rajadithya between 11th and 12th centuries. The presiding deity is locally popular as Rajanna who is accompanied by the idols of Sri Raja Rajeswari Devi and Siddi Vinayaka. It houses several temples dedicated to other deities including Anantha Padmanabha Swamy, Bhimeshwara Swamy, Kodanda Rama and Kasi Visweswara. Apart from these there is a tomb of Muslim saint.
+                
+                Located on the banks of Mulavagu stream, Vemulawada was once the capital city of Vemulawada Chalukyas dynasty between 750-973 CE. The remains .....
+                
+                Distance (From Karimnagar): 36 Kms
+                Trip Duration (From Karimnagar - Including Travel): 4 Hours/Half Day
+                
+                  </p>
+          </div>
+        </div>
+        
+    
+            <div class="card">
+              <img class="card-img-top" src="el.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Elagandal fort</h5>
+                <p class="card-text">At a distance of 1 km from Elgandal, 16 km from Karimnagar Bus Station and 167 km from Hyderabad, Elgandal Fort is situated on the bank of the Maner River at Elgandal town in Karimnagar district of Telangana. This is one of the important historical sites to visit around Karimnagar & Hyderabad.
+
+                    The fort had been a centre of power of various dynasties, including the Kakatiya dynasty, Bahmanis, Qutub Shahis, Mughals and Asaf Jahis. The fort was appointed as the headquarters of Karimnagar during the rule of the Nizams of Hyderabad. In earlier times, Elgandal is also called as Bahudhanyapuram, Tellakandula and Veligandula. And finally in course of time, the name changed to Elgandal.
+                    
+                    
+                    </p>
+                </div>
+            </div>
+                 </div>
+            
+              </body>
+</html>
+

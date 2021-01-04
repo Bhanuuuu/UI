@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOK NOW</title>
+    <link rel="stylesheet" href="tst.css">
+
+<script>
+
+function validateForm() {
+  var lname = document.forms["myForm"]["location"].value;
+  if (lname == "") {
+    alert("please enter the location");
+    return false;
+  }
+    if(!isNaN(lname))
+{
+alert("Please Enter Only Characters");
+document.myForm.fname.select();
+return false;
+}
+var ndays = document.forms["myForm"]["no days"].value;
+  if (ndays == "") {
+    alert("please enter number of persons");
+    return false;
+  }
+  var npersons = document.forms["myForm"]["no persons"].value;
+  if (npersons == "") {
+    alert("please enter the number of persons");
+    return false;
+  }
+  var datee = document.forms["myForm"]["date"].value;
+  if (datee == "") {
+    alert("please enter the date");
+    return false;
+  }
+  var Email = document.forms["myForm"]["email"].value;
+  if (Email == "") {
+    alert("Email must be filled out");
+    return false;
+  }
+
+  var emailfilter=/^\w+[\+\.\w-]*@([\w-]+\.)*\w+[\w-]*\.([a-z]{2,4}|\d+)$/i
+var b=emailfilter.test(document.myForm.email.value);
+if(b==false)
+{
+alert("Please Enter a valid Mail ID");
+document.myForm.emailid.focus();
+return false;
+}
+
+
+var Mobile = document.forms["myForm"]["mobile"].value;
+  if (Mobile == "") {
+    alert("Mobile Number  must be filled out");
+    return false;
+  }
+
+  if(isNaN(Mobile))
+{
+alert("Enter the valid Mobile Number(Like : 9566137117)");
+document.myForm.mobile.focus();
+return false;
+}
+
+
+}
+
+
+
+
+
+</script>
+
+
+
+</head>
+<body>
+    <div  class="tab-pane fade">
+        <div class="m2">
+             <h3 >Book now</h3>
+             <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+              <table align="center" cellpadding = "10">
+
+              <!----- tour location ------>
+              <tr>
+              <td>enter tour location</td>
+              <td>*<input type="text" name="location" maxlength="30"/>
+            
+              </td>
+              </tr>
+               
+              <!----- number of days ------>
+              <tr>
+              <td>Number of days</td>
+              <td>*<input type="number" name="no days" />
+              
+              </td>
+              </tr>
+              <tr>
+                <td>Number of persons</td>
+                <td>*<input type="number" name="no persons" />
+                
+                </td>
+                </tr>
+              <!----- Date------->
+              <tr>
+              <td>Enter the date</td>
+                  <td> 
+                    *<input type="date" name="date" min="01-01-1980" max="01-12-2030">
+                  </td>
+              </tr>
+               
+              <!----- Email Id ----->
+              <tr>
+              <td>EMAIL ID</td>
+              <td>*<input type="text" name="email" maxlength="100" /></td>
+              </tr>
+               
+              <!----- Mobile Number ------>
+              <tr>
+              <td>MOBILE NUMBER</td>
+              <td>
+              *<input type="text" name="mobile" maxlength="10" />
+              (10 digit number)
+              </td>
+              </tr>
+              
+              <tr class="con">
+                <td id="last" colspan="2" text-align="center">
+                  <input type="submit" value="BOOK NOW">
+
+                </td>
+                       </tr>        
+              
+               
+              </table>
+              
+
+
+           </form>    
+           </div>
+</div>
+</body>
+</html>
